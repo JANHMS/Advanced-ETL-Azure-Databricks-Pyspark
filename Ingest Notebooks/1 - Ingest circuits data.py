@@ -112,7 +112,7 @@ circuits_renamed_df = circuits_selected_df.withColumnRenamed("circuitId", "circu
 
 # COMMAND ----------
 
-circuits_final_df.write.mode("overwrite").parquet("/mnt/formula1/processed/circuits")
+circuits_final_df.write.mode("overwrite").parquet("/mnt/Files/formula1/processed/circuits")
 
 # COMMAND ----------
 
