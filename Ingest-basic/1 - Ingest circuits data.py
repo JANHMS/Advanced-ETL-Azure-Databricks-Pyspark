@@ -1,4 +1,14 @@
 # Databricks notebook source
+# MAGIC %run 
+# MAGIC ./Includes/configuration
+
+# COMMAND ----------
+
+# MAGIC %run
+# MAGIC ./Includes/common_functions
+
+# COMMAND ----------
+
 #With secret/createScope
 # replace the aldsAccountName with your storage name. The storage name must be unique across all Azure. 
 aldsAccountName="formula1project2023"
@@ -112,7 +122,7 @@ circuits_renamed_df = circuits_selected_df.withColumnRenamed("circuitId", "circu
 
 # COMMAND ----------
 
-circuits_final_df.write.mode("overwrite").parquet("/mnt/Files/formula1/processed/circuits")
+circuits_final_df.write.mode("overwrite").parquet("/mnt/formula1/processed/circuits")
 
 # COMMAND ----------
 
