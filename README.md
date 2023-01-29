@@ -15,7 +15,7 @@ This project aims to perform data transformation using Databricks `Pyspark` and 
 * Azure Storage Account
 * Azure resource group
 * Azure Key Vault
-* Azzure Data Factory
+* Azure Data Factory
 * PowerBI
 
 ## Steps
