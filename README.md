@@ -73,14 +73,20 @@ extra_configs = configs)
 
 ## How to mount data from Azure Data Lake Storage Gen2 to Databricks.  
 
-## Potential project architecture
-<img width="508" alt="Screenshot 2023-01-25 at 14 14 10" src="https://user-images.githubusercontent.com/45521680/214684174-7fb3e321-588a-4808-8f46-af497fff6ebc.png">
+### Used Azure Services
+<img width="739" alt="Screenshot 2023-01-29 at 11 14 32" src="https://user-images.githubusercontent.com/45521680/215344570-bf7415cb-0940-4848-a983-9d12bd687d00.png">
 
 ### Azure Data Factory 
+<img width="347" alt="Screenshot 2023-01-29 at 18 28 28" src="https://user-images.githubusercontent.com/45521680/215344532-2a6c4bb4-cf04-445c-b514-b70a369b243c.png">
+<img width="632" alt="Screenshot 2023-01-29 at 11 45 39" src="https://user-images.githubusercontent.com/45521680/215344561-c2461509-1648-491f-a417-76b8355c0543.png">
 ![Azure Data Factory](https://user-images.githubusercontent.com/45521680/215344336-9e1580c7-43d0-4e77-b8ce-a96b4d9921ea.png)
 
+### Potential project architecture (Big picture)
+<img width="508" alt="Screenshot 2023-01-25 at 14 14 10" src="https://user-images.githubusercontent.com/45521680/214684174-7fb3e321-588a-4808-8f46-af497fff6ebc.png">
+
 ### Incremetal load architecture
-![incremental_load_pipeline](https://user-images.githubusercontent.com/45521680/215343729-7da58562-4b5f-47d9-a9ff-c44e17dbc46e.png)
+![incremen<img width="604" alt="Screenshot 2023-01-29 at 17 04 17" src="https://user-images.githubusercontent.com/45521680/215344558-b368ee72-0734-4fdb-9fc8-80f3f9d76582.png">
+tal_load_pipeline](https://user-images.githubusercontent.com/45521680/215343729-7da58562-4b5f-47d9-a9ff-c44e17dbc46e.png)
 
 ### Databricks Architecture
 <img width="1390" alt="Screenshot 2023-01-25 at 13 28 10" src="https://user-images.githubusercontent.com/45521680/214684129-b83f23c8-ae6d-4cf7-942e-fea5fb152ef7.png">
