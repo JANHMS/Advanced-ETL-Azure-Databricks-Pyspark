@@ -5,6 +5,12 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC ## Prework
+# MAGIC We need to execute script 1 to mount the data from blob
+
+# COMMAND ----------
+
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, DateType
 
 # COMMAND ----------
@@ -51,7 +57,15 @@ races_selected_df = races_with_timestamp_df.select(col('raceId').alias('race_id'
 
 # COMMAND ----------
 
-races_selected_df.write.mode('overwrite').partitionBy('race_year').parquet('/mnt/formula1/processed/races')
+races_selected_df.write.mode('overwrite').partitionBy('race_year').parquet('/mnt/Files/formula1/processed/races')
+
+# COMMAND ----------
+
+display(dbutils.fs.mounts())
+
+# COMMAND ----------
+
+display(races_selected_df)
 
 # COMMAND ----------
 
