@@ -77,6 +77,8 @@ extra_configs = configs)
 <img width="739" alt="Screenshot 2023-01-29 at 11 14 32" src="https://user-images.githubusercontent.com/45521680/215344570-bf7415cb-0940-4848-a983-9d12bd687d00.png">
 
 ### Azure Data Factory 
+We can either connect the databricks instance to the DataFactory instance through AD or though a personalised acces token, which we can generate in Databricks and pass as an authentication method. 
+
 <img width="347" alt="Screenshot 2023-01-29 at 18 28 28" src="https://user-images.githubusercontent.com/45521680/215344532-2a6c4bb4-cf04-445c-b514-b70a369b243c.png">
 <img width="632" alt="Screenshot 2023-01-29 at 11 45 39" src="https://user-images.githubusercontent.com/45521680/215344561-c2461509-1648-491f-a417-76b8355c0543.png">
 
