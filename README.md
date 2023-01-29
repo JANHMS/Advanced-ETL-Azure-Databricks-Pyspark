@@ -79,7 +79,8 @@ extra_configs = configs)
 ### Azure Data Factory 
 <img width="347" alt="Screenshot 2023-01-29 at 18 28 28" src="https://user-images.githubusercontent.com/45521680/215344532-2a6c4bb4-cf04-445c-b514-b70a369b243c.png">
 <img width="632" alt="Screenshot 2023-01-29 at 11 45 39" src="https://user-images.githubusercontent.com/45521680/215344561-c2461509-1648-491f-a417-76b8355c0543.png">
-![Azure Data Factory](https://user-images.githubusercontent.com/45521680/215344336-9e1580c7-43d0-4e77-b8ce-a96b4d9921ea.png)
+
+
 
 ### Potential project architecture (Big picture)
 <img width="508" alt="Screenshot 2023-01-25 at 14 14 10" src="https://user-images.githubusercontent.com/45521680/214684174-7fb3e321-588a-4808-8f46-af497fff6ebc.png">
