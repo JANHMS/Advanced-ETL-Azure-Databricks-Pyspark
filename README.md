@@ -1,9 +1,10 @@
 # Advanced ETL using Azure + Databricks + Pyspark
 
 ## Introduction
-This project aims to perform data transformation using Databricks `Pyspark` and `SparkSQL`. The data was mounted from an `Azure Data Lake Storage Gen2` and transformed within Databricks. The transformed data was then loaded back to the Datalake. This notebooks were then combined using `Azure Data Fraktory`
-
+This project aims to perform data transformation using Databricks `Pyspark` and `SparkSQL`. The data was mounted from an `Azure Data Lake Storage Gen2` and transformed within Databricks. The transformed data was then loaded back to the Datalake. This notebooks were then combined using `Azure Data Fractory`
+#### Data Flow project overview
 ![Data_Factory_overview](https://user-images.githubusercontent.com/45521680/215343684-0259be55-e9d3-4e19-8f09-f5de9f1fd20e.png)
+#### Lakehouse project overview
 ![Data_Lakehouse](https://user-images.githubusercontent.com/45521680/215344008-2da6da03-76bd-420b-9bb4-8a8dced25bb5.png)
 
 ## Tools & Libraries
