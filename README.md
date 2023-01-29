@@ -17,6 +17,7 @@ This project aims to perform data transformation using Databricks `Pyspark` and 
 * Azure Key Vault
 * Azure Data Factory
 * PowerBI
+* Azure Storage Explorer
 
 ## Steps
 1. Mount the data from the Azure Data Lake Storage Gen2 to Databricks.
@@ -33,6 +34,7 @@ This is basically the same data, but the in `raw_incremental_load` the data is o
 * Python
 * Pyspark
 * SQL
+* Azure Storage Explorer installed
 
 ## Conclusion
 This project demonstrates how to perform data transformation using Databricks Pyspark and Azure Data Lake Storage Gen2. This setup can be used for larger scale data processing and storage needs.
